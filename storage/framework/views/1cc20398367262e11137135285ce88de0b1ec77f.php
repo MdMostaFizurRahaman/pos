@@ -150,7 +150,7 @@
                                         </a> 
                                     </li>
                                     <li>
-                                        <a target="_BLINK" href="<?php echo e(route('purchase.invoice', $transaction)); ?>">
+                                    <a target="_blank" href="<?php echo e(route('purchase.invoice', $transaction)); ?>">
                                             <i class="fa fa-print" style="color: #edb426;"></i>
                                             <?php echo e(trans('core.bill')); ?>
 

@@ -132,7 +132,7 @@
                                         </a> 
                                     </li>
                                     <li>
-                                        <a target="_BLINK" href="{{route('purchase.invoice', $transaction)}}">
+                                    <a target="_blank" href="{{route('purchase.invoice', $transaction)}}">
                                             <i class="fa fa-print" style="color: #edb426;"></i>
                                             {{trans('core.bill')}}
                                         </a>
